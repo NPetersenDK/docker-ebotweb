@@ -1,5 +1,5 @@
 ebot:
-  image: hsfactory/ebot
+  image: npetersendk/ebot
   restart: always
   links:
     - "mysql:mysql"
@@ -29,7 +29,7 @@ ebot:
     USE_DELAY_END_RECORD: 'true'
 
 ebotweb:
-  image: hsfactory/ebotweb
+  image: npetersendk/ebotweb
   restart: always
   links:
     - "mysql:mysql"
