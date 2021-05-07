@@ -4,8 +4,6 @@ docker-ebot
 ### Info - NPetersen:
 While this repository works, i would recommend using the official one by hsFactory / jffz. The only reason i created this is due to deStrO didn't update the map list files, like adding de_vertigo so it can be selected in the game and on the website. This is the only edit I have made to the repositories.
 
-[![](https://images.microbadger.com/badges/image/hsfactory/ebotweb.svg)](https://microbadger.com/images/hsfactory/ebotweb "Get your own image badge on microbadger.com")
-
 Dockerised eBot (https://github.com/deStrO/eBot-CSGO) for ease of use. 
 
 Pre-Requisites
