@@ -1,5 +1,6 @@
 FROM php:5.6.25-apache
 
+
 ENV TIMEZONE="Europe/Paris"
 
 RUN mkdir -p /opt/ebot/demos /opt/ebot/logs && a2enmod rewrite && \
